@@ -8,8 +8,6 @@ Copy the script somewhere on your machine, then create an alias in your ~/.profi
 
 alias pdfmerge='python3 ~/Tools/pdfmerge.py'
 
-Compile with Python 3.x
-
 File names can be input with or without the .pdf extension. When you are finished entering file names, a blank space will prompt for the output name.
 
 In its current form the files input must be in the current working directory.
