@@ -6,7 +6,9 @@ Just a thin wrapper over the command I discovered [here](http://hints.macworld.c
 
 Copy the script somewhere on your machine, then create an alias in your ~/.profile file by inserting the line, eg
 
-alias pdfmerge="~/Tools/pdfmerge.py"
+alias pdfmerge='python3 ~/Tools/pdfmerge.py'
+
+Compile with Python 3.x
 
 File names can be input with or without the .pdf extension. When you are finished entering file names, a blank space will prompt for the output name.
 
