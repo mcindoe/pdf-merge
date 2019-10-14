@@ -1,6 +1,6 @@
 # PDF Merge Tool for MacOS
 
-Just a thin wrapper over the command I discovered [here](http://hints.macworld.com/article.php?story=2003083122212228).
+Just a thin wrapper over the GhostScript command I discovered [here](http://hints.macworld.com/article.php?story=2003083122212228).
 
 ## Usage
 
