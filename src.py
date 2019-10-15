@@ -7,6 +7,10 @@ def exit():
 
 pdfs = [x for x in os.listdir() if '.pdf' in x]
 
+if not pdfs:
+    print('There are no pdfs in the current working directory')
+    exit()
+
 print('\nFiles available for merging:')
 print(json.dumps(pdfs, indent = 2))
 
