@@ -11,3 +11,9 @@ alias pdfmerge='python3 ~/Tools/pdfmerge.py'
 File names can be input with or without the .pdf extension. When you are finished entering file names, entering a blank space will prompt for the output name.
 
 In its current form the files input must be in the current working directory.
+
+## ToDo
+
+PDF-insertion tool. Break up a document into before/after sections, then use the merging functionality to put it back together.
+
+Starts to become a pdf-utility suite.
