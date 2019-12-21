@@ -52,7 +52,7 @@ if '.pdf' not in output:
 command = f'gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile={output}'
 
 for name in files:
-    command += f' {name}'
+    command += f' "{name}"'
 
 os.system(command)
 
