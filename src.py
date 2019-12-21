@@ -49,7 +49,7 @@ if output.lower() == 'q':
 if '.pdf' not in output:
     output += '.pdf'
 
-command = f'gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile={output}'
+command = f'gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile="{output}"'
 
 for name in files:
     command += f' "{name}"'
